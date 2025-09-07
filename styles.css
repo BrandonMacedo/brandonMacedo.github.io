@@ -1,0 +1,48 @@
+/* ===== Ejemplos de selectores por CLASE ===== */
+.titulo {
+  color: #2c3e50;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.subtitulo {
+  color: #7f8c8d;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.parrafo {
+  color: #333;
+  font-size: 1em;
+  line-height: 1.5;
+  margin: 15px;
+}
+
+.imagen {
+  display: block;
+  margin: 20px auto;
+  border-radius: 12px;
+  box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
+}
+
+/* ===== Ejemplos de selectores por ID ===== */
+#principal {
+  background-color: #ecf0f1;
+  padding: 20px;
+  border-bottom: 2px solid #bdc3c7;
+}
+
+#footer {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+.imagen {
+  max-width: 100%;   /* nunca será más grande que el contenedor */
+  width: 300px;      /* ancho por defecto */
+  height: auto;      /* mantiene proporciones */
+}
+
