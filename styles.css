@@ -46,3 +46,36 @@
   height: auto;      /* mantiene proporciones */
 }
 
+/* PC (por defecto, tus estilos normales) */
+
+/* Tablet */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2em;
+  }
+  #login {
+    width: 80%;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* Celular */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5em;
+  }
+  h2 {
+    font-size: 1em;
+  }
+  p {
+    font-size: 0.9em;
+  }
+  button, input {
+    width: 100%;
+  }
+}
+
+
